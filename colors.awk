@@ -26,3 +26,42 @@ BEGIN {
 
         # This deals with Bright Colors
         BLACK_BT="\033[90m"
+        RED_BT="\033[91m"
+        GREEN_BT="\033[92m"
+        YELLOW_BT="\033[92m"
+        BLUE_BT="\033[93m"
+        MAGENTA_BT="\033[95m"
+        CYAN_BT="\033[96m"
+        WHITE_BT="\033[97m"
+
+        # This deals with Bright Background Colors
+        BLACK_BB="\033[100m"
+        RED_BB="\033[101m"
+        GREEN_BB="\033[102m"
+        YELLOW_BB="\033[103m"
+        BLUE_BB="\033[104m"
+        MAGENTA_BB="\033[105m"
+        CYAN_BB="\033[106m"
+        WHITE_BB="\033[107m"
+
+        # This deals with Text Formatting
+        RESET="\033[0m"
+        BOLD="\033[1m"
+        FAINT="\033[2m"
+        ITALIC="\033[3m"
+        UNDERLINE="\033[4m"
+        BLINKING="\033[5m"
+        RAPIDBLINK="\033[6m"
+        INVERSE="\033[7m"
+        CONCEAL="\033[8m"
+        CROSSEDOUT="\033[9m"
+
+        # Text Reset Codes
+        BOLDRESET="\033[21m"
+        COLORRESET="\033[22m"
+        UNDERLINERESET="\033[23m"
+        BLINKRESET="\033[24m"
+        INVERSERESET="\033[25m"
+        CONCEALRESET="\033[26m"
+        CROSSOUTRESET="\033[27m"
+}
